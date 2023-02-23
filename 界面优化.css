@@ -1,0 +1,61 @@
+body {
+    background-color: #FFC600;
+    text-align: center;
+    color: #FFC600;
+    border-radius: 30px;
+}
+img {
+    border-radius: 30px;
+}
+h1 {
+    color: #E80505;
+    text-align: center;
+}
+h2 {
+    color: #DE4313;
+    text-align: center;
+}
+h3 {
+    color: #FEC163;
+    text-align: center;
+}
+p {
+   color: #FDD819;
+   text-align: center;
+}
+.help{
+    background-color: #FA742B;
+    border-radius: 30px;
+    text-align: center;
+}
+/*动画-start*/
+.animated {
+animation-duration: 1.5s !important;
+-webkit-animation-duration: 1.5s !important;
+animation-fill-mode: both !important;
+-webkit-animation-fill-mode: both !important;
+}
+.animated02 {
+animation-duration: 1s !important;
+-webkit-animation-duration: 1s !important;
+animation-fill-mode: both !important;
+-webkit-animation-fill-mode: both !important;
+}
+/*逐渐显示*/
+.toShow {
+position: fixed;
+    top: 0;
+    border-radius: 30px;
+    height: 60px;
+    background-color: #ff9f5a;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, 0);
+animation: toShow 1.5s 0.5s;
+animation-fill-mode: both !important;
+-webkit-animation-fill-mode: both !important;
+}
+@keyframes toShow {
+0% {opacity: 0;}
+100% {opacity: 1;}
+}
