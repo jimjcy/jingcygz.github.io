@@ -28,6 +28,23 @@ p {
     border-radius: 30px;
     text-align: center;
 }
+ol {
+    color: #FFC600;
+}
+button:hover {
+    color: #FA742B;
+    background-color: #FFC600;
+}
+a{
+    display:block;
+    color:orange;
+    text-decoration: none;
+    width: 80px;
+    line-height: 20px;
+}
+audio {
+    text-align: center;
+}
 /*动画-start*/
 .animated {
 animation-duration: 1.5s !important;
